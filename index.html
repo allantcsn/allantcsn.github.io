@@ -7,35 +7,40 @@
     <link rel="stylesheet" href="/assets/css/styles.css" />
   </head>
   <body>
-    <header class="container">
-      <div class="flex justify-between py-12">
-        <a href="#">Madelyn Torff</a>
-        <nav>
+    <header id="header" class="header">
+      <nav class="navbar container">
+        <a href="#" class="brand">Madelyn Torff</a>
+        <div class="menu">
           <a href="">About</a>
           <a href="">Project</a>
           <a href="">Contact</a>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
-    <section class="container">
-      <div class="flex justify-between items-center">
-        <div class="hero-intro">
-          <h4>UI/UX Designer</h4>
-          <h1>Hello, my name is Madelyn Torff</h1>
-          <p>
-            Short text with details about you, what you do or your professional
-            career. You can add more information on the about page.
-          </p>
-          <div>
-            <a href="">Projects</a>
-            <a href="">Linkedin</a>
+
+    <main class="main">
+      <section>
+        <div class="hero">
+          <div class="container">
+            <div style="width: 1200px">
+              <div class="hero-intro">
+                <h4>UI/UX Designer</h4>
+                <h1>Hello, my name is Madelyn Torff</h1>
+                <p>
+                  Short text with details about you, what you do or your
+                  professional career. You can add more information on the about
+                  page.
+                </p>
+                <div class="flex gap-1">
+                  <a href="" class="primary-button">Projects</a>
+                  <a href="" class="secondary-button">Linkedin</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="hero-img">
-          <img src="/assets/img/hero-image.png" alt="Madelyn" />
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <script src="/assets/scripts/main.js"></script>
   </body>
